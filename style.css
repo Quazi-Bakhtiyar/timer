@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(85deg, #000000, #473d34);
+    color:white;
+    
+}
+
+#timer{
+    border:2px solid rgba(65, 56, 56, 0);
+    padding:20px;
+    box-shadow: -4px -8px 12px 10px rgb(12, 12, 12);
+}
+
+button{
+    background-color: red;
+    border: none;
+    color:white;
+    width:7rem;
+    height:3rem;
+    border-radius: 6px;
+    cursor:pointer;
+
+}
+.start{
+    background-color: green;
+
+}
+
+.stop{
+    background-color:rgb(22, 43, 236);
+}
+
+
+.time{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom:15px;
+}
+
+h1{
+    font-size:6rem;
+}
